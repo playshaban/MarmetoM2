@@ -37,8 +37,8 @@
             "price": "469.00",
             "background" :
             {
-                "color_1" :"#F4A764 ",
-                "color_2":"#FFDEC2"
+                "color_1" :"#ADB0B0",
+                "color_2":"#E1E1E1 "
             }
 
         }
@@ -59,8 +59,8 @@
             "price": "529.00",
             "background" :
             {
-                "color_1" :"#F4A764 ",
-                "color_2":"#FFDEC2"
+                "color_1" :"#30A357",
+                "color_2":"#75E39A"
             }
 
         },
@@ -81,8 +81,8 @@
             "price": "599.00",
             "background" :
             {
-                "color_1" :"#F4A764 ",
-                "color_2":"#FFDEC2"
+                "color_1" :"#F24F4F",
+                "color_2":"#FFA895"
             }
 
         }

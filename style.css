@@ -16,6 +16,7 @@ body {
     gap: 50px;
     box-sizing: border-box;
     background: linear-gradient(106deg, #F4A764 -2.93%, #FFDEC2 72.14%);
+    transition: 200ms ease-in-out;
 }
 
 header {
