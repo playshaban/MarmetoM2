@@ -79,6 +79,7 @@
                 type: "loop",
                 perPage: 1,
                 start: 1,
+                click:"Test",
                 perMove: 1,
                 gap: "",
                 drag: "free",
@@ -110,7 +111,7 @@
 
                 // Add content based on slide data
                 liElements += `
-                <li class="splide__slide">
+                <li class="splide__slide" data-title1="${slide.text.heading.name_1}" data-title2="${slide.text.heading.name_2}" data-para="${slide.text.paragraph}" data-price ="${slide.price}" data-bg1="${slide.background.color_1}" data-bg2="${slide.background.color_2}" >
                            <img src="${slide.image_url}" alt="">
                            <img class="shadow" src="images/el.png" >
                 </li>
@@ -132,6 +133,20 @@
 
     // Call the getData function when the DOM is fully loaded
     document.addEventListener("DOMContentLoaded", getData);
+
+    splide.on( 'visible', function () {
+        const currentSlide = document.querySelector('.is-visible');
+        document.querySelector('.info_h1').innerHTML = currentSlide.getAttribute('data-title1');
+        document.querySelector('.info_h2').innerHTML = currentSlide.getAttribute('data-title2');
+        document.querySelector('.info_paragraph').innerHTML = currentSlide.getAttribute('data-para');
+        document.querySelector('.info_price').innerHTML = "$"+currentSlide.getAttribute('data-price');
+
+        document.querySelector('')
+        
+
+    } );
+
+
 
     </script>
 </body>
