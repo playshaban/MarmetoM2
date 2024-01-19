@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Sofia+Sans+Semi+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 body {
     padding: 0px;
@@ -90,8 +91,8 @@ header .nav .sign_up_btn {
 
 .contents .info_text .info_headline .info_h2 {
     color: rgb(255, 255, 255);
-    font-family: 'Sofia Sans Semi Condensed', sans-serif;
-    font-size: 52px;
+    font-family: "Sofia Sans";
+    font-size: 50px;
     font-style: normal;
     font-weight: 900;
     line-height: 115.5%;
@@ -169,6 +170,14 @@ header .nav .sign_up_btn {
     height: 100%;
     object-fit: cover;
     margin: 0 auto;
+}
+
+.splide__list .shadow 
+{
+    position: absolute;
+    bottom: 0;
+    height: 68px;
+    width: 236px;
 }
 
 button.splide__arrow.splide__arrow--next , button.splide__arrow.splide__arrow--prev {
