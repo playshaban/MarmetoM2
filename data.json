@@ -1,0 +1,92 @@
+{
+    "slides": [
+        {
+            "title": "This Just In",
+            "text": {
+                "heading": 
+                {
+                    "name_1" : "Exquisite Watches",
+                    "name_2": "Gold Luxury, Choose Us",
+                    "color" :"white"
+                },
+                "paragraph": "Discover the Perfect Watch for Every Occasion and Elevate Your Style with Timeless Elegance and Precision Craftsmanship - watch"
+            },
+            "id": 1,
+            "image_url": "images/w2.png",
+            "price": "499.00",
+            "background" :
+            {
+                "color_1" :"#F4A764 ",
+                "color_2":"#FFDEC2"
+            }
+
+        },
+        {
+            "title": "Dainty Timepieces",
+            "text": {
+                "heading": 
+                {
+                    "name_1" : "Dainty Timepieces",
+                    "name_2": "Silver Luxury, Choose Us",
+                    "color" :"white"
+                },
+                "paragraph": "Explore the Ideal Timepiece for Any Moment and Enhance Your Style with Timeless Sophistication and Impeccable Craftsmanship - timepiece"
+            },
+            "id": 2,
+            "image_url": "images/w4.png",
+            "price": "469.00",
+            "background" :
+            {
+                "color_1" :"#F4A764 ",
+                "color_2":"#FFDEC2"
+            }
+
+        }
+        ,
+        {
+            "title": "Elegant Timepieces",
+            "text": {
+                "heading": 
+                {
+                    "name_1" : "Elegant Timepieces",
+                    "name_2": "Choose Luxury, Choose Us",
+                    "color" :"white"
+                },
+                "paragraph": "Discover the Perfect Watch for Every Occasion and Elevate Your Style with Timeless Elegance and Precision Craftsmanship - watch"
+            },
+            "id": 3,
+            "image_url": "images/w3.png",
+            "price": "529.00",
+            "background" :
+            {
+                "color_1" :"#F4A764 ",
+                "color_2":"#FFDEC2"
+            }
+
+        },
+
+        {
+            "title": "Refined Timepieces",
+            "text": {
+                "heading": 
+                {
+                    "name_1" : "Refined Timepieces",
+                    "name_2": "Choose Luxury, Choose Us",
+                    "color" :"white"
+                },
+                "paragraph": "Explore the Ideal Timepiece for Any Moment and Enhance Your Style with Timeless Sophistication and Impeccable Craftsmanship - timepiece"
+            },
+            "id": 4,
+            "image_url": "images/w4.png",
+            "price": "599.00",
+            "background" :
+            {
+                "color_1" :"#F4A764 ",
+                "color_2":"#FFDEC2"
+            }
+
+        }
+        
+        
+    ]
+}
